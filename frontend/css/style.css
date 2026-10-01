@@ -1,0 +1,13 @@
+/* Phase 3: summary cards laid out with CSS Grid instead of Bootstrap's
+   row/col classes. auto-fit + minmax means it collapses to one column
+   on a narrow (mobile) screen without a media query. */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+/* Small touch: category badges read a little easier at table width. */
+.badge {
+  font-weight: 500;
+}

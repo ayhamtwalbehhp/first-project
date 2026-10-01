@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreated Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Section -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-cube"></i></span>
+                <span class="logo-text">BrandName</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-action">
+                <a href="#signup" class="btn btn-outline">Sign In</a>
+                <a href="#get-started" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">New Release v2.0</span>
+                <h1>Build Better Products Faster & Smarter</h1>
+                <p>Streamline your workflow, collaborate seamlessly, and scale your business with our powerful all-in-one platform designed for modern teams.</p>
+                <div class="hero-buttons">
+                    <a href="#get-started" class="btn btn-primary btn-lg">Start Free Trial <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#demo" class="btn btn-secondary btn-lg"><i class="fa-solid fa-play"></i> Watch Demo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>99.8%</h3>
+                        <p>Satisfaction</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-item">
+                        <h3>15k+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="card-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="skeleton-line title"></div>
+                        <div class="skeleton-line"></div>
+                        <div class="skeleton-line short"></div>
+                        <div class="mockup-card-grid">
+                            <div class="mini-card"></div>
+                            <div class="mini-card"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Your Growth</h2>
+                <p>Everything you need to manage, track, and scale your projects effectively.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box blue"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized performance ensuring your tasks and data load instantaneously without lag.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box purple"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Advanced Security</h3>
+                    <p>Enterprise-grade encryption keeping your critical business data completely secure.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box green"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Gain deep insights into your workflow metrics with visual, actionable dashboards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-cube"></i></span>
+                    <span class="logo-text">BrandName</span>
+                </div>
+                <p>Empowering teams globally to build amazing digital products and achieve high performance.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Stay Updated</h4>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn btn-primary">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BrandName. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
